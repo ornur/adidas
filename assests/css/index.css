@@ -1,0 +1,148 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: radial-gradient(53.81% 53.81% at 50% 50%, #4B4B4B 0%, #141414 100%);
+    font-family: 'Sergoe UI', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    position: absolute;
+    width: 62px;
+    height: 60px;
+    left: 146px;
+    top: 40px;
+}
+
+.navbar{
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 438px;
+    top: 74px;
+    color: #FFFFFF;
+}
+
+.back{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.men{
+    margin-right: 92px;
+}
+.women{
+    margin-right: 73px;
+}
+.kids{
+    margin-right: 78px;
+}
+
+.backside{
+    position: absolute;
+    width: 1071px;
+    height: 833px;
+    left: 272px;
+    top: -22px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 700px;
+    line-height: 931px;
+
+    color: #FFFFFF;
+
+    opacity: 0.25;
+}
+
+.degree{
+    position: absolute;
+    width: 75px;
+    height: 52px;
+    left: 313px;
+    top: 582px;
+
+}
+
+.shoe{
+    position: absolute;
+    width: 1066.7px;
+    height: 869.74px;
+    left: 260px;
+    top: -14px;
+}
+
+.adidas{
+    position: absolute;
+    left: -87px;
+    right: 0;
+}
+
+.scroll{
+    position: absolute;
+    width: 24px;
+    height: 180px;
+    left: 1270px;
+    top: 372px;
+
+}
+
+.other{
+    position: absolute;
+    width: 199px;
+    height: 27px;
+    left: 105px;
+    top: 918px;
+}
+
+.more{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 62px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.arrow{
+    position: absolute;
+    left: 20.6%;
+    right: 16.08%;
+    top: 100%;
+    bottom: 0%;
+    margin-top: 11px;
+}
+
+.more:hover{
+    color: #c0bbbb;
+    font-weight: 600;
+}
